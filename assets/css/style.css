@@ -875,6 +875,36 @@ section .container {
   color: #18d26e;
 }
 
+.projects .clickable-link {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px; /* Adjust the font size */
+  width: fit-content; /* Adjust the width */
+  margin-bottom: 10px;
+  margin-left: 10px;
+  /* transition: background-color 0.3s, border-color 0.3s; */
+}
+
+.projects .clickable-link i {
+  color: #ffffff;
+  margin: 5px;
+  font-size: 22px;
+}
+.projects .clickable-link:hover i {
+  color: #35e888;
+}
+
+.projects .clickable-link span {
+  color: #ffffff;
+}
+.projects .clickable-link:hover span {
+  color: #35e888;
+}
 
 
 /*--------------------------------------------------------------
